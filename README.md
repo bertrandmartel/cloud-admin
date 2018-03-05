@@ -82,6 +82,7 @@ This project is using :
 * [React](https://github.com/facebook/react)
 * [Material UI](https://github.com/callemall/material-ui)
 * [React Table](https://react-table.js.org)
+* [Axios](https://github.com/axios/axios)
 
 This project has been created using [create-react-app](https://github.com/facebookincubator/create-react-app)
 

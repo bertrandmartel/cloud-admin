@@ -31,6 +31,10 @@ class InfoView extends Component {
       {
         "name" : "react-table",
         "link" : "https://react-table.js.org/#/story/readme"
+      },
+      {
+        "name" : "axios",
+        "link" : "https://github.com/axios/axios"
       }
     ];
 
