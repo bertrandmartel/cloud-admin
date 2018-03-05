@@ -83,6 +83,8 @@ This project is using :
 * [Material UI](https://github.com/callemall/material-ui)
 * [React Table](https://react-table.js.org)
 * [Axios](https://github.com/axios/axios)
+* [Moment.js](http://momentjs.com/)
+* [uuid](https://github.com/kelektiv/node-uuid)
 
 This project has been created using [create-react-app](https://github.com/facebookincubator/create-react-app)
 

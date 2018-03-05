@@ -35,6 +35,14 @@ class InfoView extends Component {
       {
         "name" : "axios",
         "link" : "https://github.com/axios/axios"
+      },
+      {
+        "name" : "Moment.js",
+        "link" : "http://momentjs.com"
+      },
+      {
+        "name" : "uuid",
+        "link" : "https://github.com/kelektiv/node-uuid"
       }
     ];
 
