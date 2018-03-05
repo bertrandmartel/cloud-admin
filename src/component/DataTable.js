@@ -201,6 +201,7 @@ class DataTable extends Component {
                                 //push only subrows which have no first item null
                                 var accessor1 = props.subHeaders[0].columns[0].accessor;
                                 var accessor2 = props.subHeaders[0].columns[1].accessor;
+                                // eslint-disable-next-line
                                 return subRows.filter(it => it[accessor1] != undefined && it[accessor2] != undefined);
                             }}
                             manual
