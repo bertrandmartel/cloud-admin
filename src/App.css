@@ -1,0 +1,11 @@
+.rt-th.-hidden, .rt-td.hidden {
+  display: none !important;
+}
+
+.rt-td.hidden.rt-expandable.rt-pivot {
+  display: block !important;
+}
+
+.ReactTable .rt-thead.-headerGroups {
+  display: none !important;
+}

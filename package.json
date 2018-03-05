@@ -1,0 +1,24 @@
+{
+  "name": "cloud-admin",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "http://localhost:5000",
+  "dependencies": {
+    "material-ui": "^1.0.0-beta.34",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "react-table": "^6.7.6",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "start": "REACT_APP_VERSION=$(node -pe 'require(\"./package.json\").version') react-scripts start",
+    "build": "REACT_APP_VERSION=$(node -pe 'require(\"./package.json\").version') react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "serve": "serve -s build -p $SERVER_PORT"
+  }
+}
