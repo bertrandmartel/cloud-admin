@@ -2,7 +2,7 @@
   "name": "cloud-admin",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://localhost:5000",
+  "homepage": "https://bertrandmartel.github.io/cloud-admin",
   "dependencies": {
     "axios": "^0.18.0",
     "material-ui": "^1.0.0-beta.34",
