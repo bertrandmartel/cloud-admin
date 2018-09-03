@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import Dialog, {
-    DialogContent,
-    DialogActions,
-    DialogTitle,
-} from 'material-ui/Dialog';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Button from 'material-ui/Button';
-import AppsIcon from 'material-ui-icons/Apps';
-import InfoIcon from 'material-ui-icons/InfoOutline';
-import CopyrightIcon from 'material-ui-icons/Copyright';
-import CodeIcon from 'material-ui-icons/Code';
-import { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
-import Collapse from 'material-ui/transitions/Collapse';
+import { withStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import AppsIcon from '@material-ui/icons/Apps';
+import InfoIcon from '@material-ui/icons/InfoOutlined';
+import CopyrightIcon from '@material-ui/icons/Copyright';
+import CodeIcon from '@material-ui/icons/Code';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import Collapse from '@material-ui/core/Collapse';
 
 const styles = theme => ({
 });

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import { createMuiTheme, MuiThemeProvider } from 'material-ui/styles';
-import { withStyles } from 'material-ui/styles';
+import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import TopNavbar from './component/TopNavbar.js';
-import AppBar from 'material-ui/AppBar';
-import Tabs, { Tab }  from 'material-ui/Tabs';
+import AppBar from '@material-ui/core/AppBar';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 import * as Storage from './stores/Storage';
 import DataTable from "./component/DataTable";
 import "react-table/react-table.css";
@@ -136,11 +137,13 @@ class App extends Component {
         return (
             <MuiThemeProvider theme={theme}>
                 <div className={classes.root}>
+                {
                     <TopNavbar mode={this.state.mode}
                                onEditMode={this.onEditMode}
                                onShowInfo={this.onShowInfo}
                                showEditMode={config.showEditMode}
                                className={classNames(classes.appBar,classes.appBarShift)}/>
+                }
                 </div>
                 <main className={classes.content}>
                     <AppBar position="static">

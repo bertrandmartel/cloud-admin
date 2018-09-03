@@ -6,6 +6,6 @@ export default
 		name: "demo"
 	}, {
 		name: "server",
-		url: "http://localhost:4000/admin/headers"
+		url: "http://localhost:6002/admin/headers"
 	}]
 }

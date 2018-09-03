@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Typography from 'material-ui/Typography';
+import Typography from '@material-ui/core/Typography';
 import ReactTable from "react-table";
 import axios from 'axios';
 import treeTableHOC from './TreeTable';

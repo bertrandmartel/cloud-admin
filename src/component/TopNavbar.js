@@ -1,16 +1,16 @@
 //react
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
-import Typography from 'material-ui/Typography';
-import IconButton from 'material-ui/IconButton';
-import InfoIcon from 'material-ui-icons/InfoOutline';
-import Code from 'material-ui-icons/Code';
-import Tooltip from 'material-ui/Tooltip';
-import { FormControl } from 'material-ui/Form';
-import Select from 'material-ui/Select';
+import { withStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import InfoIcon from '@material-ui/icons/InfoOutlined';
+import Code from '@material-ui/icons/Code';
+import Tooltip from '@material-ui/core/Tooltip';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
 
 const styles = theme => ({
     flex: {
@@ -80,19 +80,19 @@ class TopNavbar extends Component {
                           </Select>
                         </FormControl>
                         }
-	                    <Tooltip enterDelay={100}  disableTriggerFocus title="source code" placement="bottom">
+	                    <Tooltip enterDelay={100}  disableTriggerFocus title="source code">
 	                        <IconButton color="default" className={classes.button} aria-label="source code" href="https://github.com/bertrandmartel/cloud-admin">
 	                            <Code/>
 	                        </IconButton>
 	                    </Tooltip>
 
-                        <Tooltip enterDelay={100}  disableTriggerFocus title="information" placement="bottom">
+                        <Tooltip enterDelay={100}  disableTriggerFocus title="information">
                           <IconButton onClick={() => this.showInfo()} color="default" className={classes.lastButton} aria-label="information">
                             <InfoIcon />
                           </IconButton>
                       </Tooltip>
                     </Toolbar>
-                  </AppBar>)
+                </AppBar>)
     }
 }
 
